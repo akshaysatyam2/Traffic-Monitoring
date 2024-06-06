@@ -89,9 +89,6 @@ while True:
         cx, cy = x1 + w // 2, y1 + h // 2
         cv2.circle(img, (cx, cy), 5, (255, 0, 255), cv2.FILLED)
 
-
-    cv2.putText(img,str(len(totalCount)),(255,100),cv2.FONT_HERSHEY_PLAIN,5,(50,50,255),8)
-
     # Writing video
     out.write(img)
 
