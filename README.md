@@ -1,38 +1,48 @@
-# Traffic Monitoring Project
+# 🚦 Traffic Monitoring Project: Automated Traffic Management 🚦
 
-## Overview
-This project uses YOLOv8 for object detection and SORT tracker for object tracking to monitor road traffic via video feeds from traffic cameras.
+This project aims to **automate traffic management** by detecting, tracking, and extracting vehicle registration numbers from video feeds provided by traffic cameras. It builds upon pre-existing systems used by various organizations, while introducing improvements for efficiency and automation.
 
-## Features
-- **Object Detection:** Accurate vehicle detection with YOLOv8.
-- **Object Tracking:** Efficient vehicle tracking using SORT.
-- **Future Enhancements:**
-  - Add OCR for vehicle registration numbers.
-  - Automate monitoring with additional metrics.
+Using **YOLOv8** for object detection and **SORT** for object tracking, the project automates the process of monitoring road traffic. Additionally, it extracts vehicle registration numbers through **EasyOCR**, supporting multiple license plate formats, including **HSRP** (High-Security Registration Plates).
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/akshaysatyam2/Traffic-Monitoring.git
-    cd Traffic-Monitoring
-    ```
-2. Install dependencies:
-    ```bash
-    pip install ultralytics cvzone filterpy
-    ```
+---
 
-## Usage
-1. Prepare a video file (e.g., `cars.mp4`).
-2. Run the provided Jupyter notebook `Car Tracker Collab.ipynb` in Google Colab or locally to process the video feed.
+## 🔑 Key Features
+- **Automated Car Tracker**: Detect and track vehicles.
+- **Registration Number Extractor**: Extract vehicle registration numbers.
+- **Technologies Used**: Overview of the tech stack.
+- **Key Contributors**: Project ownership and credits.
+- **References & Resources**: Useful links and resources.
 
-## Contributing
-Contributions are welcome! Fork the repository, create a feature branch, commit your changes, and submit a pull request.
+---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## 🚦 Automated Car Tracker
 
-## References
-- [YouTube Video](https://www.youtube.com/watch?v=WgPbbWmnXJ8)
-- [GitHub Repository](https://github.com/akshaysatyam2/Traffic-Monitoring.git)
+This project automates vehicle detection using **YOLOv8** and tracks them across video frames using the **SORT** (Simple Online and Realtime Tracking) algorithm. This automated system efficiently monitors traffic and ensures continuous tracking of vehicles from traffic camera feeds.
 
-Your feedback and suggestions are welcome! 🚗📊 #ObjectDetection #YOLOv8 #SORT #MachineLearning #TrafficMonitoring #ComputerVision
+---
+
+## 🛂 Registration Number Extractor
+
+The project automates the extraction of vehicle registration numbers by detecting license plates using **YOLOv8** and reading the numbers using **EasyOCR**. It supports various license plate formats, including **HSRP**, without requiring a specific standard for successful detection.
+
+---
+
+## 💻 Technologies Used
+
+The following technologies are utilized to automate traffic management:
+
+- **YOLOv8**: Object detection (vehicles, license plates, etc.).
+- **SORT**: Object tracking to maintain continuous monitoring.
+- **EasyOCR**: Optical Character Recognition (OCR) for reading text from the detected license plates.
+
+---
+
+## 👥 Key Contributors
+
+- **Akshay Kumar** - Author and Project Owner
+
+---
+
+## 📚 References & Resources
+
+- [YouTube Video on Vehicle Tracking](https://www.youtube.com/watch?v=WgPbbWmnXJ8)
